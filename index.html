@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/weather-app/img/weatherapp.png"
+      type="image/x-icon"
+    />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/weather-app/style.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  </head>
+  <body>
+    <main class="main-container">
+      <header class="header">
+        <div class="search-div">
+          <input class="input-search" type="text" />
+          <input class="btn-search" value="Search" type="button" />
+        </div>
+      </header>
+      <main class="main-display">
+        <div class="weather-profile">
+          <img
+            class="wall-weather"
+            src="/weather-app/img/clear-sky01n.png"
+            alt=""
+          />
+        </div>
+        <div class="time-wrap">
+          <span class="time-style"></span>
+        </div>
+        <div class="date-wrap">
+          <span class="date-style"></span>
+        </div>
+        <div class="temp-weather">
+          <span class="temp-text">00<sub>.C</sub></span>
+          <span>temperature</span>
+        </div>
+        <div class="main-weather">
+          <span class="weather-text">condition</span>
+        </div>
+        <div class="cityName">
+          <span class="Citytext">city name</span>
+          <span class="countryText">IN</span>
+        </div>
+      </main>
+      <footer class="footer"></footer>
+    </main>
+    <script src="/weather-app/script.js"></script>
+  </body>
+</html>
